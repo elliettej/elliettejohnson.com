@@ -1,0 +1,143 @@
+/*
+Theme Name: Corsa Child
+Template: Corsa
+Version: 1.7.3
+Author:	UpSolution
+Theme URI: http://us-themes.com/wp/Corsa/
+Author URI: http://us-themes.com/
+*/
+
+/*  ------------- CUSTOM CSS --------------- */
+
+/* creates fade in effect for my name */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1; 
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards; 
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:5s;
+  -moz-animation-duration:5s;
+  animation-duration:5s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+/* styling for fade in */
+.text{
+  font-size:95px;
+  letter-spacing:3px;
+  margin:5px;
+}
+
+/* removes nav-bar border-bottom */
+.l-header {
+	box-shadow:0 0px 0px rgba(0,0,0,0.07);
+	}
+
+/* adjusts height of content sections & parralax sections */
+.l-subsection {
+	padding: 60px 0 200px 0 !important;
+
+	}
+
+.l-main.align_center{
+	margin-bottom:0 !important;
+}
+
+section#home.l-section{
+	margin-top: -125px !important;
+	min-height: 226px !important;
+}
+
+/* positions image of myself */
+.me{
+	position:relative !important;
+	top:234px !important;
+	right: 5px !important;
+	margin-top: -211px !important;
+}
+
+
+/* color changes to default Corsa buttons */
+
+.g-btn.color_secondary{
+	background-color:whitesmoke !important;
+	color: #69D0B3 !important;
+	border:2px solid black !important;
+	border-radius: 2px !important;
+	font-family: 'Josefin Sans', sans-serif; !important;
+	font-size:16px !important;
+}
+
+.l-subsection.color_primary, .home-heading-line.type_primary_bg, .g-btn.color_primary, input[type="submit"], .no-touch .g-btn.color_secondary:after, .g-pagination-item.active, .w-actionbox.color_primary, .no-touch .slick-prev:hover, .no-touch .slick-next:hover, .w-icon.color_primary.with_circle .w-icon-link, .w-iconbox.with_circle .w-iconbox-icon, .w-pricing-item.type_featured .w-pricing-item-title, .no-touch .w-team-member-links .w-team-member-links-item:hover{
+	background-color:#444 !important;
+}
+
+.g-btn.color_primary{
+	background-color: whitesmoke !important;
+	color: #69D0B3 !important;
+	border:2px solid black !important;
+	border-radius: 2px !important;
+	font-family: 'Josefin Sans', sans-serif; !important;
+	font-size:16px !important;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* hides default footer on mobile */
+@media (max-width: 959px){
+.l-footer{
+	position:fixed !important;
+	}
+
+/* hides "home" list item on navbar outside of hamburger menu */
+@media (min-width: 1025px){
+.l-header .w-nav-item.active > .w-nav-anchor, .l-header .w-nav-item.current-menu-item > .w-nav-anchor, .l-header .w-nav-item.current-menu-ancestor > .w-nav-anchor{
+	display:none !important;
+	}
+}
+
+
+@media screen and (min-width: 1020px) {
+     .menu-item-1798{
+       display: none;
+    }
+}
+
+/* adusts parallax height & position of image of myself */
+@media only screen and (max-width: 1024px) {
+
+	.l-subsection {
+	padding: 35px 0 100px 0 !important;
+	}
+
+	.l-subsection.with_parallax{
+	min-height:175px !important;
+	}
+
+	.alignnone.size-medium.wp-image-2112.me{
+	margin-bottom:100px !important;
+	}
+}
+
+/* adjusts parralax height for tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+	.l-subsection {
+	padding: 50px 0 100px 0 !important;
+	}
+}
