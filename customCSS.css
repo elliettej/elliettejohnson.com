@@ -49,50 +49,50 @@ Author URI: http://us-themes.com/
 
 /* adjusts height of content sections & parralax sections */
 .l-subsection {
-	padding: 60px 0 200px 0 !important;
+	padding: 60px 0 200px 0;
 
 	}
 
 .l-main.align_center{
-	margin-bottom:0 !important;
+	margin-bottom:0;
 }
 
 section#home.l-section{
-	margin-top: -125px !important;
-	min-height: 226px !important;
+	margin-top: -125px;
+	min-height: 226px;
 }
 
 /* positions image of myself */
 .me{
-	position:relative !important;
-	top:234px !important;
-	right: 5px !important;
-	margin-top: -211px !important;
+	position:relative;
+	top:234px;
+	right: 5px;
+	margin-top: -211px;
 }
 
 
 /* color changes to default Corsa buttons */
 
 .g-btn.color_secondary{
-	background-color:whitesmoke !important;
-	color: #69D0B3 !important;
-	border:2px solid black !important;
-	border-radius: 2px !important;
-	font-family: 'Josefin Sans', sans-serif; !important;
-	font-size:16px !important;
+	background-color:whitesmoke;
+	color: #69D0B3;
+	border:2px solid black;
+	border-radius: 2px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:16px;
 }
 
 .l-subsection.color_primary, .home-heading-line.type_primary_bg, .g-btn.color_primary, input[type="submit"], .no-touch .g-btn.color_secondary:after, .g-pagination-item.active, .w-actionbox.color_primary, .no-touch .slick-prev:hover, .no-touch .slick-next:hover, .w-icon.color_primary.with_circle .w-icon-link, .w-iconbox.with_circle .w-iconbox-icon, .w-pricing-item.type_featured .w-pricing-item-title, .no-touch .w-team-member-links .w-team-member-links-item:hover{
-	background-color:#444 !important;
+	background-color:#444;
 }
 
 .g-btn.color_primary{
-	background-color: whitesmoke !important;
-	color: #69D0B3 !important;
-	border:2px solid black !important;
-	border-radius: 2px !important;
-	font-family: 'Josefin Sans', sans-serif; !important;
-	font-size:16px !important;
+	background-color: whitesmoke;
+	color: #69D0B3;
+	border:2px solid black;
+	border-radius: 2px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:16px;
 }
 
 
@@ -101,13 +101,13 @@ section#home.l-section{
 /* hides default footer on mobile */
 @media (max-width: 959px){
 .l-footer{
-	position:fixed !important;
+	position:fixed;
 	}
 
 /* hides "home" list item on navbar outside of hamburger menu */
 @media (min-width: 1025px){
 .l-header .w-nav-item.active > .w-nav-anchor, .l-header .w-nav-item.current-menu-item > .w-nav-anchor, .l-header .w-nav-item.current-menu-ancestor > .w-nav-anchor{
-	display:none !important;
+	display:none;
 	}
 }
 
@@ -122,15 +122,15 @@ section#home.l-section{
 @media only screen and (max-width: 1024px) {
 
 	.l-subsection {
-	padding: 35px 0 100px 0 !important;
+	padding: 35px 0 100px 0;
 	}
 
 	.l-subsection.with_parallax{
-	min-height:175px !important;
+	min-height:175px;
 	}
 
 	.alignnone.size-medium.wp-image-2112.me{
-	margin-bottom:100px !important;
+	margin-bottom:100px;
 	}
 }
 
@@ -138,6 +138,6 @@ section#home.l-section{
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
 
 	.l-subsection {
-	padding: 50px 0 100px 0 !important;
+	padding: 50px 0 100px 0;
 	}
 }
